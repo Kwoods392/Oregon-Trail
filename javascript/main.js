@@ -41,11 +41,11 @@ class Wagon {
       } else {
         ill = ill + 1;
       }
-      if (ill >= 1) {
-        return true;
-      } else {
-        return false;
-      }
+    }
+    if (ill >= 1) {
+      return true;
+    } else {
+      return false;
     }
   }
 
